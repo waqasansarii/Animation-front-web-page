@@ -1,0 +1,147 @@
+/* .main_macbook_div{
+    border: solid 2px;
+} */
+.sub_macbook_div{
+    /* border: solid 2px; */
+    background-image: url(../images/background.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+
+}
+
+.macImg_div{
+    margin-top: 150px;
+    text-align: center;
+    max-width: 100%;
+
+}
+.macbook_img{
+   /* width: 80%; */
+}
+.voice_img_div{
+    /* border: solid 2px; */
+    width: fit-content;
+height: fit-content;
+    position: absolute;
+    left:  58%;
+    top: 355%;
+}
+.kyboard_voice_img{
+    width: 230px;
+    height: 180px;
+}
+.para_div{
+ margin-top: 60px;
+}
+
+@media only screen and (max-width:1060px){
+    .macbook_img{
+        width: 900px;
+    }
+}
+@media only screen and (max-width:950px){
+    .voice_img_div{
+       top: 340%;
+    }
+    .sub_macbook_div{
+        background-size:100% 150px;
+    }
+    .macImg_div{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:920px){
+    .macbook_img{
+        width: 700px;
+    }
+    .kyboard_voice_img{
+        width: 180px;
+        height: 140px;
+    }
+    .voice_img_div{
+       top: 340%;
+    }
+}
+@media only screen and (max-width:770px){
+    .macbook_img{
+        width: 600px;
+    }
+    .kyboard_voice_img{
+        width: 150px;
+        height: 110px;
+    }
+    .voice_img_div{
+       top: 340%;
+    }
+}
+@media only screen and (max-width:710px){
+    .macbook_img{
+        width: 500px;
+    }
+    .kyboard_voice_img{
+        width: 130px;
+        height: 90px;
+    }
+    /* .voice_img_div{
+       top: 340%;
+    } */
+}
+@media only screen and (max-width:700px){
+    .voice_img_div{
+        top: 332%;
+    }
+}
+@media only screen and (max-width:530px){
+    .macbook_img{
+        width: 100%;
+    }
+    .sub_macbook_div{
+        background: none;
+    }
+    /* .voice_img_div{
+        top: 332%;
+    } */
+    .kyboard_voice_img{
+        width: 120px;
+    }
+    .voice_img_div{
+        top: 325%;
+    }
+}
+@media only screen and (max-width:500px){
+    .voice_img_div{
+        top: 312%;
+    }
+}
+@media only screen and (max-width:450px){
+    .voice_img_div{
+        top: 300%;
+    }
+}
+@media only screen and (max-width:400px){
+    .kyboard_voice_img{
+        width: 90px;
+        height: 90px;
+    }
+    .voice_img_div{
+        top: 289%;
+    }
+}
+@media only screen and (max-width:350px){
+    .kyboard_voice_img{
+        width: 70px;
+        height: 70px;
+    }
+    .voice_img_div{
+        top: 300%;
+    }
+}
+@media only screen and (max-width:310px){
+    .kyboard_voice_img{
+        width: 70px;
+        height: 70px;
+    }
+    .voice_img_div{
+        top: 297%;
+    }
+}

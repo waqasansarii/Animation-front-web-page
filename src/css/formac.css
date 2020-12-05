@@ -1,0 +1,98 @@
+/* .mutify_main_div{
+    border: solid 2px;
+} */
+.mutify_sub_div{
+    /* border: 2px solid; */
+    margin-top: 50px;
+}
+.mutify_heading{
+    text-align: center;
+    font-size: 4em;
+    color: rgb(44, 15, 44);
+}
+.text_one,.text_two{
+    text-align: center;
+    font-size: 1.3em;
+    color: rgb(124, 121, 121);
+
+}
+
+.btn_div{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.download2_btn{
+    height: 60px;
+    width: 220px;
+    font-size: 1.3em;
+    border: none;
+    outline: none;
+    background-image: linear-gradient(rgb(122, 122, 238),blue);
+    color: white;
+    border-radius: 10px;
+    margin-top: 35px;
+    /* margin-right: 120px; */
+}
+.buy_btn{
+
+    height: 60px;
+    width: 220px;
+    font-size: 1.3em;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top: 35px;
+    /* margin-right: 120px; */
+}
+
+@media screen and (max-width:700px){
+    .mutify_heading{
+        font-size: 3em;
+    }
+    .text_one,.text_two{
+        font-size: 1.1em;
+    }
+    .download2_btn , .buy_btn{
+        width: 170px;
+        font-size: 1.1em;
+    }
+}
+@media screen and (max-width:500px){
+    .mutify_heading{
+        font-size: 2.4em;
+    }
+    .text_one,.text_two{
+        font-size: 1em;
+    }
+    .download2_btn , .buy_btn{
+       max-width: 140px;
+        font-size: 1em;
+        height: 50px;
+    }
+}
+@media screen and (max-width:350px){
+    .mutify_heading{
+        font-size: 2em;
+    }
+    .text_one,.text_two{
+        font-size: 1em;
+    }
+    .btn_div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+     .buy_btn{
+       max-width: 140px;
+        font-size: 1em;
+        height: 50px;
+        margin-top: 30px;
+        margin-left: 0px;
+        
+    }
+}

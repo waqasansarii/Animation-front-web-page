@@ -1,0 +1,360 @@
+/* .main_volume_level_div{
+    border: solid 2px;
+} */
+.sub_volume_level_div{
+    /* border: solid 2px ; */
+    margin-top: 50px;
+    background-image: url(../images//wave-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:1250px 600px ;
+    background-clip: border-box 10px;
+}
+.parent_of_both_div{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.headings_div{
+    /* border: solid 2px; */
+
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.head_div{
+    width: 100%;
+    /* border: solid 2px; */
+
+}
+.head{
+    margin-right: 50px;
+   width: 100%;
+
+    /* border: solid 2px; */
+    
+    color: white;
+    font-size: 3em;
+}
+.para_one{
+    /* border: solid 2px; */
+    color: gray;
+    font-size: 1.5em;
+}
+.Button{
+    border: none;
+    outline: none;
+    width: 230px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 6px  ;
+    font-size: 1.2em;
+}
+.wave_img{
+    width: 700px;
+    height: 700px;
+}
+.circle_div{
+    position: absolute;
+    /* bottom: 400px; */
+    left: 63%;
+    top: 515%;
+    display: flex;
+
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius:50px;
+    background-color:white;
+   margin-left: 10px;
+   /* color: rgb(71, 70, 70); */
+
+}
+
+@media only screen and (max-width:1125px){
+    .sub_volume_level_div{
+        background-size: 1025px 600px;
+    }
+    .circle_div{
+      left: 55%;
+    }
+}
+@media only screen and (max-width:1102px){
+    .sub_volume_level_div{
+        background-size: 950px 600px;
+    }
+    .wave_img{
+        width: 600px;
+        height: 600px;
+    }
+    .headings_div{
+        margin-top: 100px;
+    }
+    .head{
+        font-size: 2.5em;
+
+    }
+    .para_one{
+        font-size: 1.5em;
+    }
+    .Button{
+        width: 200px;
+    }
+    .circle_div{
+        top: 507%;
+      left: 59%;
+    }
+}
+@media only screen and (max-width:1060px){
+    .circle_div{
+        top: 497%;
+    }
+}
+@media only screen and (max-width:1000px){
+    .sub_volume_level_div{
+        background-size: 900px 500px;
+    }
+    .head{
+        font-size: 2em;
+    }
+    .para_one{
+        font-size: 1.3em;
+    }
+    .wave_img{
+        width: 500px;
+        height: 500px;
+    }
+    .Button{
+        width: 180px;
+        height: 50px;
+    }
+    .circle_div{
+        top: 489%;
+        left: 63%;
+    }
+}
+@media only screen and (max-width:950px){
+    .sub_volume_level_div{
+        background-size: 750px;
+    }
+    .circle_div{
+        left: 60%;
+        top: 485%;
+    }
+}
+@media only screen and (max-width:920px){
+    .circle_div{
+        top: 470%;
+    }
+}
+@media only screen and (max-width:850px){
+    .circle_div{
+        /* top: 470%; */
+        left: 56%;
+    }
+    .headings_div{
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width:780px){
+    .sub_volume_level_div{
+        background-size: 620px 450px;
+    }
+    .head{
+        font-size: 1.5em;
+    }
+    .para_one{
+        font-size: 1em;
+    }
+    .wave_img{
+        width: 400px;
+        height: 400px;
+    }
+    .circle_div{
+        top: 465%;
+        left: 60%;
+    }
+    .circle{
+        width: 15px;
+        height: 15px;
+    }
+    .headings_div{
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width:780px){
+    .circle_div{
+        top: 458%;
+    }
+}
+@media only screen and (max-width:710px){
+    .circle_div{
+        top: 453%;
+        left: 57%;
+    }
+}
+@media only screen and (max-width:700px){
+    .circle_div{
+        top: 442%;
+        left: 58%;
+    }
+}
+@media only screen and (max-width:655px){
+    .sub_volume_level_div{
+        background-size: 93%;
+    }
+    .headings_div{
+        margin-top: 20px;
+        width: 100%;
+        margin-left: 30px;
+    }
+    .circle_div{
+        top: 470%;
+        left: 36%;
+    }
+    .Button{
+        width: 90%;
+    }
+    .wave_img_div{
+    text-align: center;
+    }
+    .parent_of_both_div{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .paraDiv{
+        width: 70%;
+    }
+    .circle_div{
+        top: 463%;
+        left: 33%;
+    }
+}
+@media only screen and (max-width:575px){
+    .headings_div{
+        margin-top: 70px;
+    }
+    .circle_div{
+        top: 477%;
+    }
+}
+@media only screen and (max-width:530px){
+    .headings_div{
+        margin-top: 100px;
+    }
+    .Button{
+        height: 45px;
+        font: 1em sans-serif;
+    }
+    .wave_img{
+        width: 350px;
+        height: 350px;
+    }
+    .circle_div{
+        top: 474%;
+    }
+    
+    
+}
+@media only screen and (max-width:530px){
+    .circle_div{
+        top: 455%;
+    }
+}
+@media only screen and (max-width:460px){
+    .circle{
+        width: 10px;
+        height: 10px;
+    }
+    .wave_img_div{
+        margin-top: -20px;
+        z-index: 1;
+    }
+    .sub_volume_level_div{
+        background-size: 90% 90vh;
+    }
+    /* .wave_img{
+        width: auto;
+        height: auto;
+    } */
+    .Button{
+        width: 70%;
+        margin-left: 40px;
+    }
+    .circle_div{
+        top: 450%;
+    }
+}
+@media only screen and (max-width:450px){
+    .circle_div{
+        top: 440%;
+    }
+    .head_div{
+        width: 90%;
+    }
+    .head{
+        width: 90%;
+    }
+}
+@media only screen and (max-width:440px){
+    .circle_div{
+        top: 445%;
+    }
+}
+@media only screen and (max-width:430px){
+    .circle_div{
+        top: 442%;
+    }
+}
+@media only screen and (max-width:400px){
+    .para_one{
+        margin-left: 20px;
+    }
+    .circle_div{
+        top: 430%;
+    }
+}
+@media only screen and (max-width:372px){
+    .circle_div{
+        top: 434%;
+        left: 30%;
+    }
+    
+}
+@media only screen and (max-width:350px){
+    .circle_div{
+        top: 451%;
+    }
+    .wave_img{
+        width: 280px;
+        height: 280px;
+    }
+    .Button{
+        margin-left:20px;
+        width: 170px;
+    }
+}
+@media only screen and (max-width:330px){
+    .circle_div{
+        top: 454%;
+    }
+}
+@media only screen and (max-width:310px){
+    .circle_div{
+        top: 453%;
+        left: 24%;
+    }
+}
+@media only screen and (max-width:300px){
+    .circle_div{
+        top: 450%;
+    }
+}
+@media only screen and (max-width:290px){
+    .circle_div{
+        top: 448%;
+    }
+}
