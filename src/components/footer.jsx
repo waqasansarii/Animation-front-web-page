@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from './header'
 import FotBar from './fotbar'
 import '../css/footer.css'
 

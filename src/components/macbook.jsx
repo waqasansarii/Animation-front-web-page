@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import useWebAnimations, { shakeY, backInUp } from "@wellyshen/use-web-animations";
 import macbookImg from '../images/macbook.png'
 import kyboardVoice from '../images/kyboard -voice.png'
 
