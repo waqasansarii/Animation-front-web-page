@@ -1,6 +1,6 @@
 import React from 'react'
 import waves from '../images/wave.png'
-import useWebAnimations,{ flash} from "@wellyshen/use-web-animations";
+import useWebAnimations, { flash } from "@wellyshen/use-web-animations";
 
 import '../css/volumeLevel.css'
 
@@ -8,63 +8,63 @@ import '../css/volumeLevel.css'
 function VolumeLevel() {
 
 
-    const {keyframes,timing} =flash
-    
-    const circleOne =useWebAnimations({
-        keyframes:{
-           ...keyframes,
-           backgroundColor:['rgb(71, 70, 70)','white']
+    const { keyframes, timing } = flash
+
+    const circleOne = useWebAnimations({
+        keyframes: {
+            ...keyframes,
+            backgroundColor: ['rgb(71, 70, 70)', 'white']
         },
-        timing:{
+        timing: {
             ...timing,
-            duration:700,
-            iterations:Infinity,
-            
+            duration: 700,
+            iterations: Infinity,
+
 
         }
     })
     const circleTwo = useWebAnimations({
-        keyframes:{
-            transform:['scale(0,0,0.5)'],
-            backgroundColor:['rgb(71, 70, 70)','white']
+        keyframes: {
+            transform: ['scale(0,0,0.5)'],
+            backgroundColor: ['rgb(71, 70, 70)', 'white']
 
         },
-        timing:{
-            duration:600,
-            iterations:Infinity
+        timing: {
+            duration: 600,
+            iterations: Infinity
         }
     })
     const circleThree = useWebAnimations({
-        keyframes:{
-            transform:['scale(0,0,0.5)'],
-            backgroundColor:['rgb(71, 70, 70)','white']
+        keyframes: {
+            transform: ['scale(0,0,0.5)'],
+            backgroundColor: ['rgb(71, 70, 70)', 'white']
 
         },
-        timing:{
-            duration:500,
-            iterations:Infinity
+        timing: {
+            duration: 500,
+            iterations: Infinity
         }
     })
     const circleFour = useWebAnimations({
-        keyframes:{
-            transform:['scale(0,0,0.5)'],
-            backgroundColor:['rgb(71, 70, 70)','white']
+        keyframes: {
+            transform: ['scale(0,0,0.5)'],
+            backgroundColor: ['rgb(71, 70, 70)', 'white']
 
         },
-        timing:{
-            duration:400,
-            iterations:Infinity
+        timing: {
+            duration: 400,
+            iterations: Infinity
         }
     })
     const circleFive = useWebAnimations({
-        keyframes:{
-            transform:['scale(0,0,0.5)'],
-            backgroundColor:['rgb(71, 70, 70)','white']
+        keyframes: {
+            transform: ['scale(0,0,0.5)'],
+            backgroundColor: ['rgb(71, 70, 70)', 'white']
 
         },
-        timing:{
-            duration:600,
-            iterations:Infinity
+        timing: {
+            duration: 600,
+            iterations: Infinity
         }
     })
     return (
@@ -90,14 +90,17 @@ function VolumeLevel() {
                     </div>
 
                 </div>
-                <div className='circle_div'>
-                    <p className='circle'> </p>
-                    <p className='circle' ref={circleOne.ref}> </p>
-                    <p className='circle' ref={circleTwo.ref}> </p>
-                    <p className='circle' ref={circleThree.ref}> </p>
-                    <p className='circle' ref={circleFour.ref} > </p>
-                    <p className='circle' ref={circleFive.ref}> </p>
-                </div>
+                {/* <div> */}
+
+                    <div className='circle_div'>
+                        <p className='circle'> </p>
+                        <p className='circle' ref={circleOne.ref}> </p>
+                        <p className='circle' ref={circleTwo.ref}> </p>
+                        <p className='circle' ref={circleThree.ref}> </p>
+                        <p className='circle' ref={circleFour.ref} > </p>
+                        <p className='circle' ref={circleFive.ref}> </p>
+                    </div>
+                {/* </div> */}
             </div>
 
         </div>

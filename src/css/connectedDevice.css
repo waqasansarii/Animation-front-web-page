@@ -1,6 +1,4 @@
-/* .main_device_div{
-    border: 2px solid;
-} */
+
 .sub_device_div{
     /* border: 2px solid red; */
     height: 730px;
@@ -13,7 +11,6 @@
 }
 .main_device_div{
     /* border: 2px solid #008000; */
-    /* height: fit-content; */
     height: 800px;
 }
 
@@ -26,7 +23,6 @@
 .wave2_div{
     /* border: 2px solid #12398d; */
 
-    /* width: 350px; */
     height: 250px;
     position: absolute;
     top: 630%;
@@ -41,32 +37,25 @@
 .left_airpod_div{
     width: fit-content;
     height: fit-content;
-    position: absolute;
-    top: 610%;
+    position: relative;
+    top: -400px;
     left: 0%;
-    /* bottom: 450px; */
 }
 .right_airpod_div{
     width: fit-content;
     height: fit-content;
-    position: absolute;
-    top: 618%;
-    left: 7%;
+    position: relative;
+    top: -550px;
+    left: 10%;
 }
 .red_muted_div{
     width: fit-content;
     height: fit-content;
-    position: absolute;
-    top: 580%;
-    left: 20%;
-    /* bottom: 1020px; */
-    /* left: 230px; */
+    position: relative;
+    top: -1050px;
+    left: 30%;
 }
-/* .haeding_div{
-    border: 2px solid #008000;
 
-    margin-right: 190px;
-} */
 .h1{
     font-size: 2.5em;
 }
@@ -76,6 +65,15 @@
 }
 
 @media screen and (max-width:1125px){
+    .left_airpod_div{
+        top: -320px;
+    }
+    .right_airpod_div{
+        top: -430px;
+    }
+    .red_muted_div{
+        top: -800px;
+    }
     .mac2_img{
         width: 700px;
     }
@@ -90,7 +88,6 @@
         height: 150px;
     }
     .wave2_img{
-        /* width: 300px; */
         height: 300px;
     }
     .download2_btn{
@@ -98,29 +95,13 @@
     }
 }
 @media screen and (max-width:1103px){
-    .right_airpod_div{
-        top: 600%;
-    }
-    .left_airpod_div{
-        top: 595%;
-    }
-    .red_muted_div{
-        top: 560%;
-    }
+    
     .wave2_img{
         height: 200px;
     }
 }
 @media screen and (max-width:1060px){
-    .left_airpod_div{
-        top: 585%;
-    }
-    .red_muted_div{
-        top: 550%;
-    }
-    .right_airpod_div{
-        top: 592%;
-    }
+    
     .wave2_div{
         display: none;
     }
@@ -137,18 +118,7 @@
     }
 }
 @media screen and (max-width:1000px){
-    .left_airpod_div{
-        top: 565%;
-    }
-    .red_muted_div{
-        top: 535%;
-    }
-    .right_airpod_div{
-        top: 572%;
-    }
-    /* .wave2_div{
-        display: none;
-    } */
+   
     .h1{
         font-size: 2em;
     }
@@ -181,7 +151,6 @@
      margin-top: 60px;
  }
  .red_muted_div{
-     top: 590%;
      left: 45%;
  }
  .red_muted_img{
@@ -189,52 +158,25 @@
      height: 250px;
  }
  .right_airpod_div{
-     top: 620%;
      left: 30%;
  }
  .left_airpod_div{
-     top: 612%;
      left: 22%;
  }
 }
 @media screen and (max-width:920px){
-    .red_muted_div{
-        top: 580%;
-        
-    }
-    .right_airpod_div{
-        top:605% ;
-    }
+   
     .left_airpod_div{
-        top: 600%;
         left: 20%;
     }
 }
-@media screen and (max-width:880px){
-    .red_muted_div{
-        top: 570%;
-        
-    }
-    .right_airpod_div{
-        top:595% ;
-        left: 26%;
-    }
-    .left_airpod_div{
-        top: 585%;
-        left: 15%;
-    }
-}
+
 @media screen and (max-width:770px){
-    .red_muted_div{
-        top: 560%;
-        
-    }
+    
     .right_airpod_div{
-        top:585% ;
         left: 26%;
     }
     .left_airpod_div{
-        top: 575%;
         left: 15%;
     }
 }
@@ -250,42 +192,34 @@
         height: 100px;
     }
     .left_airpod_div{
-        top: 585%;
-        left: 25%;
+        top: -230px;
+        left: 22%;
     }
     .right_airpod_div{
-        top: 590%;
-        left: 33%;
+        top: -300px;
+        left: 32%;
     }
     .red_muted_div{
-        top: 570%;
+        top: -540px;
     }
 }
 @media screen and (max-width:700px){
     .left_airpod_div{
-        top: 570%;
-        left: 25%;
+        left: 22%;
     }
     .right_airpod_div{
-        top: 575%;
-        left: 33%;
+        left: 32%;
     }
-    .red_muted_div{
-        top: 555%;
-    }
+    
 }
 @media screen and (max-width:655px){
     .left_airpod_div{
-        top: 600%;
-        left: 23%;
+        left: 20%;
     }
     .right_airpod_div{
-        top: 605%;
-        left: 33%;
+        left: 30%;
     }
-    .red_muted_div{
-        top: 585%;
-    }
+    
 }
 @media screen and (max-width:575px){
     .haeding_div{
@@ -298,70 +232,11 @@
     .mac2_img{
         width: 100%;
     }
-    .left_airpod_div{
-        top: 600%;
-        left: 15%;
-    }
-    .right_airpod_div{
-        top: 605%;
-        left: 27%;
-    }
-    .red_muted_div{
-        top: 585%;
-    }
+    
 }
-@media screen and (max-width:574px){
-    .left_airpod_div{
-        top: 605%;
-        left: 15%;
-    }
-    .right_airpod_div{
-        top: 610%;
-        left: 27%;
-    }
-    .red_muted_div{
-        top: 590%;
-    }
-}
-@media screen and (max-width:530px){
-    .left_airpod_div{
-        top: 600%;
-        left: 15%;
-    }
-    .right_airpod_div{
-        top: 605%;
-        left: 27%;
-    }
-    .red_muted_div{
-        top: 585%;
-    }
-}
-@media screen and (max-width:500px){
-    .left_airpod_div{
-        top: 580%;
-        left: 15%;
-    }
-    .right_airpod_div{
-        top: 585%;
-        left: 27%;
-    }
-    .red_muted_div{
-        top: 565%;
-    }
-}
-@media screen and (max-width:460px){
-    .left_airpod_div{
-        top: 575%;
-        left: 15%;
-    }
-    .right_airpod_div{
-        top: 580%;
-        left: 27%;
-    }
-    .red_muted_div{
-        top: 565%;
-    }
-}
+
+
+
 @media screen and (max-width:450px){
     .right_airpod_img,.left_airpod_img{
         height: 70px;
@@ -372,15 +247,15 @@
     }
 
     .left_airpod_div{
-        top: 567%;
+        top: -190px;
         left: 15%;
     }
     .right_airpod_div{
-        top: 570%;
+        top: -230px;
         left: 27%;
     }
     .red_muted_div{
-        top: 558%;
+        top: -400px;
     }
 }
 @media screen and (max-width:350px){
@@ -388,15 +263,15 @@
         font-size: 1.7em;
     }
     .left_airpod_div{
-        top: 577%;
+        top: -160px;
         left: 15%;
     }
     .right_airpod_div{
-        top: 580%;
+        top: -200px;
         left: 27%;
     }
     .red_muted_div{
-        top: 568%;
+        top: -370px;
     }
 }
 @media screen and (max-width:322px){
@@ -411,27 +286,14 @@
         width: 60px;
     }
     .left_airpod_div{
-        top: 582%;
+        top: -135px;
         left: 15%;
     }
     .right_airpod_div{
-        top: 587%;
+        top: -165px;
         left: 27%;
     }
     .red_muted_div{
-        top: 573%;
-    }
-}
-@media screen and (max-width:300px){
-    .left_airpod_div{
-        top: 575%;
-        left: 15%;
-    }
-    .right_airpod_div{
-        top: 580%;
-        left: 27%;
-    }
-    .red_muted_div{
-        top: 568%;
+        top: -290px;
     }
 }

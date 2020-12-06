@@ -54,10 +54,10 @@
     height: 700px;
 }
 .circle_div{
-    position: absolute;
+    position: relative;
     /* bottom: 400px; */
     left: 63%;
-    top: 515%;
+    top: -400px;
     display: flex;
 
 }
@@ -101,13 +101,13 @@
         width: 200px;
     }
     .circle_div{
-        top: 507%;
+        top: -350px;
       left: 59%;
     }
 }
 @media only screen and (max-width:1060px){
     .circle_div{
-        top: 497%;
+        top: -350px;
     }
 }
 @media only screen and (max-width:1000px){
@@ -129,7 +129,7 @@
         height: 50px;
     }
     .circle_div{
-        top: 489%;
+        top: -300px;
         left: 63%;
     }
 }
@@ -139,12 +139,12 @@
     }
     .circle_div{
         left: 60%;
-        top: 485%;
+        top: -290px;
     }
 }
 @media only screen and (max-width:920px){
     .circle_div{
-        top: 470%;
+        top: -290px;
     }
 }
 @media only screen and (max-width:850px){
@@ -171,8 +171,9 @@
         height: 400px;
     }
     .circle_div{
-        top: 465%;
+        /* top: -480px; */
         left: 60%;
+        top: -240px;
     }
     .circle{
         width: 15px;
@@ -182,20 +183,16 @@
         margin-top: 50px;
     }
 }
-@media only screen and (max-width:780px){
-    .circle_div{
-        top: 458%;
-    }
-}
+
 @media only screen and (max-width:710px){
     .circle_div{
-        top: 453%;
+        top: -235px;
         left: 57%;
     }
 }
 @media only screen and (max-width:700px){
     .circle_div{
-        top: 442%;
+        /* top: ; */
         left: 58%;
     }
 }
@@ -209,7 +206,7 @@
         margin-left: 30px;
     }
     .circle_div{
-        top: 470%;
+        /* top: 470%; */
         left: 36%;
     }
     .Button{
@@ -229,7 +226,6 @@
         width: 70%;
     }
     .circle_div{
-        top: 463%;
         left: 33%;
     }
 }
@@ -237,11 +233,9 @@
     .headings_div{
         margin-top: 70px;
     }
-    .circle_div{
-        top: 477%;
-    }
+    
 }
-@media only screen and (max-width:530px){
+@media only screen and (max-width:560px){
     .headings_div{
         margin-top: 100px;
     }
@@ -254,16 +248,12 @@
         height: 350px;
     }
     .circle_div{
-        top: 474%;
+        top: -220px;
     }
     
     
 }
-@media only screen and (max-width:530px){
-    .circle_div{
-        top: 455%;
-    }
-}
+
 @media only screen and (max-width:460px){
     .circle{
         width: 10px;
@@ -276,22 +266,15 @@
     .sub_volume_level_div{
         background-size: 90% 90vh;
     }
-    /* .wave_img{
-        width: auto;
-        height: auto;
-    } */
+
     .Button{
         width: 70%;
         margin-left: 40px;
     }
-    .circle_div{
-        top: 450%;
-    }
+    
 }
 @media only screen and (max-width:450px){
-    .circle_div{
-        top: 440%;
-    }
+    
     .head_div{
         width: 90%;
     }
@@ -299,34 +282,25 @@
         width: 90%;
     }
 }
-@media only screen and (max-width:440px){
-    .circle_div{
-        top: 445%;
-    }
-}
-@media only screen and (max-width:430px){
-    .circle_div{
-        top: 442%;
-    }
-}
+
 @media only screen and (max-width:400px){
     .para_one{
         margin-left: 20px;
     }
     .circle_div{
-        top: 430%;
+        top: -210px;
     }
 }
 @media only screen and (max-width:372px){
     .circle_div{
-        top: 434%;
+        top: -200px;
         left: 30%;
     }
     
 }
 @media only screen and (max-width:350px){
     .circle_div{
-        top: 451%;
+        top: -175px;
     }
     .wave_img{
         width: 280px;
@@ -337,24 +311,10 @@
         width: 170px;
     }
 }
-@media only screen and (max-width:330px){
-    .circle_div{
-        top: 454%;
-    }
-}
+
 @media only screen and (max-width:310px){
     .circle_div{
-        top: 453%;
+        /* top: 453%; */
         left: 24%;
-    }
-}
-@media only screen and (max-width:300px){
-    .circle_div{
-        top: 450%;
-    }
-}
-@media only screen and (max-width:290px){
-    .circle_div{
-        top: 448%;
     }
 }
