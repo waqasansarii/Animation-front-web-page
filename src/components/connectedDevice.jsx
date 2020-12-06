@@ -31,19 +31,13 @@ function ConnectedDevice(){
                         <img className='wave2_img' src={wave} alt=""/>
                     </div>
                     <div className='left_airpod_div'>
-                        <img className='left_airpod_img'
-                        //  data-aos='fade-up'
-                          data-aos-delay='1300' src={left} alt=""/>
+                        <img className='left_airpod_img' data-aos='fade-up' data-aos-delay='1300' src={left} alt=""/>
                     </div>
                     <div className='right_airpod_div'>
-                        <img className='right_airpod_img'
-                        //  data-aos='fade-up'
-                          data-aos-delay='1500' src={right} alt=""/>
+                        <img className='right_airpod_img' data-aos='fade-up' data-aos-delay='1500' src={right} alt=""/>
                     </div>
                     <div className='red_muted_div'>
-                        <img className='red_muted_img' 
-                        // data-aos='fade-up'
-                         data-aos-delay='1500' src={redMuted} alt=""/>
+                        <img className='red_muted_img' data-aos='fade-up' data-aos-delay='1500' src={redMuted} alt=""/>
                     </div>
 
                 </div>
