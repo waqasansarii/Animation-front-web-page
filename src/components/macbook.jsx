@@ -30,10 +30,10 @@ function Macbook() {
                     <img className='macbook_img' src={macbookImg} alt="" />
                 </div>
 
-                <div className='voice_img_div'>
+                <div className='voice_img_div' data-aos="zoom-in-up" data-aos-delay="1500">
                     <img className='kyboard_voice_img'
                         // data-aos="zoom-in-up"
-                        data-aos-delay="1500" src={kyboardVoice} alt="" />
+                         src={kyboardVoice} alt="" />
                 </div>
 
                 <div className='para_div'>
